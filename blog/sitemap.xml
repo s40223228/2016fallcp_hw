@@ -5,41 +5,41 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2016-11-10T11:00:14-00:00</lastmod>
+<lastmod>2016-11-11T14:39:24-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2016-11-10T11:00:14-00:00</lastmod>
+<lastmod>2016-11-11T14:39:24-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2016-11-10T11:00:14-00:00</lastmod>
+<lastmod>2016-11-11T14:39:24-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2016-11-10T11:00:14-00:00</lastmod>
+<lastmod>2016-11-11T14:39:24-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./pages/about/</loc>
-<lastmod>2016-11-10T10:54:35+08:00</lastmod>
+<lastmod>2016-11-11T13:58:03+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./2016fall-min-jin-dang-tuan-rang-bu-lao-ji-fa-zhong-hui-wei-yuan-hui-shen-cha.html</loc>
+<loc>./40223228-zhuan-ti-xu.html</loc>
 <lastmod>2016-11-10T11:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
@@ -74,6 +74,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>./tag/shi-yong-dao-yin.html</loc>
+<lastmod>2016-11-10T11:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>./tag/biao-da-neng-li.html</loc>
 <lastmod>2016-11-10T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
@@ -95,14 +102,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/shi-yong-dao-yin.html</loc>
-<lastmod>2016-11-10T11:00:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./author/40223154.html</loc>
+<loc>./author/40223228.html</loc>
 <lastmod>2016-11-10T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>

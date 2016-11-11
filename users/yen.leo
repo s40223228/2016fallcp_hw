@@ -167,7 +167,7 @@
 <v t="amd.20160727120222.1"><vh>@edit 20160921.md</vh></v>
 <v t="leo.20161014142409.1"><vh>@edit 20161014.md</vh></v>
 <v t="leo.20161104143748.1"><vh>@edit 20161104.md</vh></v>
-<v t="leo.20161110105551.1"><vh>@edit 20161110.md</vh></v>
+<v t="leo.20161110105551.1"><vh>@edit 20161111.md</vh></v>
 </v>
 </v>
 </v>
@@ -302,12 +302,12 @@ print("hello")
 
 						
 </t>
-<t tx="amd.20161004095719.2"># 2016Fall 計算機程式課程(40223154)
+<t tx="amd.20161004095719.2"># 2016Fall 計算機程式課程(40223228)
 
 ### 虎科大機械設計工程系
 
 &lt;small&gt;
-Created by [40223154](http://chiamingyen.github.io/kmolab/blog/)
+Created by [40223228](http://chiamingyen.github.io/kmolab/blog/)
 &lt;/small&gt;
 
 [甲班計算機程式課程網誌](blog/index.html)
