@@ -812,7 +812,15 @@ Brython (Javascript): https://www.brython.info/
 </t>
 <t tx="yen.20161011155543.2"># 計算機程式-影片呈現
 
-</t>
+這些影片多半是在課後複習時拍攝,旨在記錄自己沙盤推演的過程以及幫自準備成果的呈現
+
+1.[關於ShareX的設定](https://vimeo.com/184948425)
+
+2.[blog網誌的編輯](https://vimeo.com/190203215)
+
+3.[關於git push](https://vimeo.com/191107943)
+
+4.[關於在編輯投影片的事](https://vimeo.com/191424137)</t>
 <t tx="yen.20161016004633.1">&lt;section&gt;
 @others
 &lt;/section&gt;
