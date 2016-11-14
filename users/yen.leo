@@ -328,7 +328,7 @@ Created by [40223228](https://s40223228.github.io/2016fallcp_hw/blog/)
 
 						
 </t>
-<t tx="amd.20161004104641.2"># 40223228 計算機程式-上課筆記
+<t tx="amd.20161004104641.2"># 計算機程式-上課筆記
 
 [我的Wiki](https://github.com/s40223228/2016fallcp_hw/wiki)
 
@@ -336,7 +336,7 @@ Created by [40223228](https://s40223228.github.io/2016fallcp_hw/blog/)
 
 [1.我的 git push SOP](https://github.com/s40223228/2016fallcp_hw/wiki/%E6%88%91%E7%9A%84-git-push-SOP)
 
-[2.那些關於執行blog的事](https://github.com/s40223228/2016fallcp_hw/wiki/%E9%82%A3%E4%BA%9B%E9%97%9C%E6%96%BC%E5%9F%B7%E8%A1%8Cblog%E7%9A%84%E4%BA%8B)
+2.那些關於執行blog的事(https://github.com/s40223228/2016fallcp_hw/wiki/%E9%82%A3%E4%BA%9B%E9%97%9C%E6%96%BC%E5%9F%B7%E8%A1%8Cblog%E7%9A%84%E4%BA%8B)
 </t>
 <t tx="amd.20161004104820.1">&lt;section&gt;
 @others
@@ -810,12 +810,7 @@ Brython (Javascript): https://www.brython.info/
 
 						
 </t>
-<t tx="yen.20161011155543.2"># 計算機程式在教什麼?
-
-## &lt;span style="color:#FFFF00"&gt;創造力&lt;/span&gt;&lt;small&gt;=自學力+程式力+想像力&lt;/small&gt;
-## &lt;span style="color:#FFFF00"&gt;表達力&lt;/span&gt;&lt;small&gt;=口語+文字+2D+3D+理論+實體&lt;/small&gt;
-&lt;span style="color:#00FF80"&gt;以及&lt;/span&gt;
-## &lt;span style="color:#FFFF00"&gt;協同力&lt;/span&gt;&lt;small&gt;=電腦+網路+工具+專案&lt;/small&gt;
+<t tx="yen.20161011155543.2"># 計算機程式-影片呈現
 
 </t>
 <t tx="yen.20161016004633.1">&lt;section&gt;
