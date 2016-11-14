@@ -310,7 +310,7 @@ print("hello")
 Created by [40223228](https://s40223228.github.io/2016fallcp_hw/blog/)
 &lt;/small&gt;
 
-[甲班計算機程式課程網誌](blog/index.html)
+[甲班計算機程式課程網誌](https://mdecourse.github.io/2016fallcpa/blog)
 
 [乙班計算機程式課程網誌](https://mdecourse.github.io/2016fallcpb/blog)
 
@@ -328,14 +328,9 @@ Created by [40223228](https://s40223228.github.io/2016fallcp_hw/blog/)
 
 						
 </t>
-<t tx="amd.20161004104641.2"># 計算機程式在教什麼?
+<t tx="amd.20161004104641.2"># 40223228 計算機程式-上課筆記
 
-## 創造力
-## 表達力
-以及
-## 協同力
-
-</t>
+我的Wiki(https://github.com/s40223228/2016fallcp_hw.wiki.githttps://github.com/s40223228/2016fallcp_hw.wiki.git)</t>
 <t tx="amd.20161004104820.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -1016,6 +1011,7 @@ make.start()
 </t>
 <t tx="yen.20161016023122.2"># 投影片快捷鍵
 
+請繼續切換不同頁簡報,將會有課堂學期成果為您呈現
 * 利用箭頭上下前後換頁
 * 按 f 鍵進入全螢幕模式 (full screen)
 * 按 s 鍵可以顯示投影片筆記 (show)
