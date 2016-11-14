@@ -330,7 +330,12 @@ Created by [40223228](https://s40223228.github.io/2016fallcp_hw/blog/)
 </t>
 <t tx="amd.20161004104641.2"># 40223228 計算機程式-上課筆記
 
-我的Wiki(https://github.com/s40223228/2016fallcp_hw.wiki.githttps://github.com/s40223228/2016fallcp_hw.wiki.git)</t>
+[我的Wiki](https://github.com/s40223228/2016fallcp_hw.wiki.githttps://github.com/s40223228/2016fallcp_hw.wiki.git)
+
+除了平日上課的散記外,另有
+1.我的 git push SOP
+2.那些關於執行blog的事
+</t>
 <t tx="amd.20161004104820.1">&lt;section&gt;
 @others
 &lt;/section&gt;
