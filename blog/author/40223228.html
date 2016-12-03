@@ -328,43 +328,6 @@ ctx.closePath()
             </article>
             <hr/>
             <article>
-                <h2><a href="../w11-brython-hui-tu-fan-li.html">W11 Brython 繪圖範例</a></h2>
-                <div class="summary"><p>繪圖流程, 導入程式庫, 啟動, 然後引用各種模組開始繪圖</p>
-
-<!-- 導入 Brython 標準程式庫 -->
-
-<script type="text/javascript" 
-    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
-</script>
-
-<!-- 啟動 Brython -->
-
-<script>
-window.onload=function(){
-brython(1);
-}
-</script>
-
-<!-- 以下實際利用  Brython 畫方格線 -->
-
-<canvas id="japanflag3" width="600" height="300"></canvas>
-
-<div id="container3"></div>
-
-<script type="text/python3">
-from browser import document as doc
-from browser import html
-import math
-import re
-# 準備繪圖畫布
-canvas = doc["japanflag3"]
-container = doc["container3"]
-ctx = canvas.getContext("2d ...</script></!--></!--></!-->
-                    <a class="btn btn-default btn-xs" href="../w11-brython-hui-tu-fan-li.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
                 <h2><a href="../w12-1-brython-hui-tu-fan-li.html">W12-1 Brython 繪圖範例</a></h2>
                 <div class="summary"><p>繪圖流程, 導入程式庫, 啟動, 然後引用各種模組開始繪圖</p>
 
@@ -437,6 +400,43 @@ def background(x, y, xinc, yinc, xnum, ynum, ctx):
                 </div>
             </article>
             <hr/>
+            <article>
+                <h2><a href="../w12-brython-hui-tu-fan-li.html">W12 Brython 繪圖範例</a></h2>
+                <div class="summary"><p>繪圖流程, 導入程式庫, 啟動, 然後引用各種模組開始繪圖</p>
+
+<!-- 導入 Brython 標準程式庫 -->
+
+<script type="text/javascript" 
+    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
+</script>
+
+<!-- 啟動 Brython -->
+
+<script>
+window.onload=function(){
+brython(1);
+}
+</script>
+
+<!-- 以下實際利用  Brython 畫方格線 -->
+
+<canvas id="japanflag3" width="600" height="300"></canvas>
+
+<div id="container3"></div>
+
+<script type="text/python3">
+from browser import document as doc
+from browser import html
+import math
+import re
+# 準備繪圖畫布
+canvas = doc["japanflag3"]
+container = doc["container3"]
+ctx = canvas.getContext("2d ...</script></!--></!--></!-->
+                    <a class="btn btn-default btn-xs" href="../w12-brython-hui-tu-fan-li.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
 
         </div>
         <div class="col-sm-3" id="sidebar">
@@ -453,11 +453,6 @@ def background(x, y, xinc, yinc, xnum, ynum, ctx):
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="../w11-brython-hui-tu-fan-li.html">
-                            W11 Brython 繪圖範例
-                        </a>
-                    </li>
-                    <li class="list-group-item">
                         <a href="../w12-1-brython-hui-tu-fan-li.html">
                             W12-1 Brython 繪圖範例
                         </a>
@@ -465,6 +460,11 @@ def background(x, y, xinc, yinc, xnum, ynum, ctx):
                     <li class="list-group-item">
                         <a href="../w12-2-brython-hui-tu-fan-li.html">
                             W12-2 Brython 繪圖範例
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="../w12-brython-hui-tu-fan-li.html">
+                            W12 Brython 繪圖範例
                         </a>
                     </li>
                 </ul>

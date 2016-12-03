@@ -39,75 +39,7 @@ ctx.stroke()
 ctx.closePath()
 &lt;/script&gt;
 
-</summary><category term="Brython"></category></entry><entry><title>W11 Brython 繪圖範例</title><link href="./w11-brython-hui-tu-fan-li.html" rel="alternate"></link><published>2016-11-18T02:09:00+08:00</published><updated>2016-11-18T02:09:00+08:00</updated><author><name>40223228</name></author><id>tag:,2016-11-18:./w11-brython-hui-tu-fan-li.html</id><summary type="html">&lt;p&gt;繪圖流程, 導入程式庫, 啟動, 然後引用各種模組開始繪圖&lt;/p&gt;
-
-&lt;!-- 導入 Brython 標準程式庫 --&gt;
-
-&lt;script type="text/javascript" 
-    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js"&gt;
-&lt;/script&gt;
-
-&lt;!-- 啟動 Brython --&gt;
-
-&lt;script&gt;
-window.onload=function(){
-brython(1);
-}
-&lt;/script&gt;
-
-&lt;!-- 以下實際利用  Brython 畫方格線 --&gt;
-
-&lt;canvas id="japanflag3" width="600" height="300"&gt;&lt;/canvas&gt;
-
-&lt;div id="container3"&gt;&lt;/div&gt;
-
-&lt;script type="text/python3"&gt;
-from browser import document as doc
-from browser import html
-import math
-import re
-# 準備繪圖畫布
-canvas = doc["japanflag3"]
-container = doc["container3"]
-ctx = canvas.getContext("2d")
-# 以下可以利用 ctx 物件進行畫圖
-
-# 水平線
-for i in range(6):
-    ctx.beginPath()
-# 設定線的寬度為 1 個單位
-    if i == 0:
-        ctx.lineWidth = 7
-    else:
-        ctx.lineWidth = 1
-    ctx.moveTo(99, 100+i*30)
-    ctx.lineTo(201, 100+i*30)
-    # 設定顏色為藍色, 也可以使用 "rgb(0, 0, 255)" 字串設定顏色值
-    ctx.strokeStyle = "blue"
-    ctx.stroke()
-    ctx.closePath()
-
-# 垂直線
-for i in range(6):
-    ctx.beginPath()
-# 設定線的寬度為 1 個單位
-    ctx.lineWidth = 1
-    ctx.moveTo(100+i*20, 100)
-    ctx.lineTo(100+i*20, 250)
-    # 設定顏色為藍色, 也可以使用 "rgb(0, 0, 255)" 字串設定顏色值
-    ctx.strokeStyle = "blue"
-    ctx.stroke()
-    ctx.closePath()
-'''
-# 以下將 canvas 畫布內容轉為 img tag, 並且顯示在 container 物件
-img = canvas.toDataURL("image/png")
-# 利用 re.sub, 將原本要直接開圖檔的 data:image 標頭, 改為 data:application/octet-stream, 可直接下載存檔
-# 使用 re 模組之前必須先 import re
-img = re.sub("^data:image\/[^;]", "data:application/octet-stream", img)
-# 宣告 anchor markup attribute download, 可以指定下載儲存檔名
-container &lt;= html.A("save image", href=img, download="guitar_chord.png")
-'''
-&lt;/script&gt;</summary><category term="Brython"></category></entry><entry><title>W12-1 Brython 繪圖範例</title><link href="./w12-1-brython-hui-tu-fan-li.html" rel="alternate"></link><published>2016-11-18T02:09:00+08:00</published><updated>2016-11-18T02:09:00+08:00</updated><author><name>40223228</name></author><id>tag:,2016-11-18:./w12-1-brython-hui-tu-fan-li.html</id><summary type="html">&lt;p&gt;繪圖流程, 導入程式庫, 啟動, 然後引用各種模組開始繪圖&lt;/p&gt;
+</summary><category term="Brython"></category></entry><entry><title>W12-1 Brython 繪圖範例</title><link href="./w12-1-brython-hui-tu-fan-li.html" rel="alternate"></link><published>2016-11-18T02:09:00+08:00</published><updated>2016-11-18T02:09:00+08:00</updated><author><name>40223228</name></author><id>tag:,2016-11-18:./w12-1-brython-hui-tu-fan-li.html</id><summary type="html">&lt;p&gt;繪圖流程, 導入程式庫, 啟動, 然後引用各種模組開始繪圖&lt;/p&gt;
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
@@ -240,6 +172,74 @@ w = 20
 h = 30
 background(100, 100, w, h, 5, 5, ctx)
 canvasText(100,  80, 20, "A", "b", "", "black", ctx)
+&lt;/script&gt;</summary><category term="Brython"></category></entry><entry><title>W12 Brython 繪圖範例</title><link href="./w12-brython-hui-tu-fan-li.html" rel="alternate"></link><published>2016-11-18T02:09:00+08:00</published><updated>2016-11-18T02:09:00+08:00</updated><author><name>40223228</name></author><id>tag:,2016-11-18:./w12-brython-hui-tu-fan-li.html</id><summary type="html">&lt;p&gt;繪圖流程, 導入程式庫, 啟動, 然後引用各種模組開始繪圖&lt;/p&gt;
+
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script type="text/javascript" 
+    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js"&gt;
+&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 畫方格線 --&gt;
+
+&lt;canvas id="japanflag3" width="600" height="300"&gt;&lt;/canvas&gt;
+
+&lt;div id="container3"&gt;&lt;/div&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+import re
+# 準備繪圖畫布
+canvas = doc["japanflag3"]
+container = doc["container3"]
+ctx = canvas.getContext("2d")
+# 以下可以利用 ctx 物件進行畫圖
+
+# 水平線
+for i in range(6):
+    ctx.beginPath()
+# 設定線的寬度為 1 個單位
+    if i == 0:
+        ctx.lineWidth = 7
+    else:
+        ctx.lineWidth = 1
+    ctx.moveTo(99, 100+i*30)
+    ctx.lineTo(201, 100+i*30)
+    # 設定顏色為藍色, 也可以使用 "rgb(0, 0, 255)" 字串設定顏色值
+    ctx.strokeStyle = "blue"
+    ctx.stroke()
+    ctx.closePath()
+
+# 垂直線
+for i in range(6):
+    ctx.beginPath()
+# 設定線的寬度為 1 個單位
+    ctx.lineWidth = 1
+    ctx.moveTo(100+i*20, 100)
+    ctx.lineTo(100+i*20, 250)
+    # 設定顏色為藍色, 也可以使用 "rgb(0, 0, 255)" 字串設定顏色值
+    ctx.strokeStyle = "blue"
+    ctx.stroke()
+    ctx.closePath()
+'''
+# 以下將 canvas 畫布內容轉為 img tag, 並且顯示在 container 物件
+img = canvas.toDataURL("image/png")
+# 利用 re.sub, 將原本要直接開圖檔的 data:image 標頭, 改為 data:application/octet-stream, 可直接下載存檔
+# 使用 re 模組之前必須先 import re
+img = re.sub("^data:image\/[^;]", "data:application/octet-stream", img)
+# 宣告 anchor markup attribute download, 可以指定下載儲存檔名
+container &lt;= html.A("save image", href=img, download="guitar_chord.png")
+'''
 &lt;/script&gt;</summary><category term="Brython"></category></entry><entry><title>2016Fall 機械設計主題教學(midterm)</title><link href="./2016fall-ji-jie-she-ji-zhu-ti-jiao-xue-midterm.html" rel="alternate"></link><published>2016-11-04T14:00:00+08:00</published><updated>2016-11-04T14:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2016-11-04:./2016fall-ji-jie-she-ji-zhu-ti-jiao-xue-midterm.html</id><summary type="html">&lt;p&gt;知識管理與最佳化應用實驗室試圖利用計算機程式、網際內容管理、電腦輔助設計實習與協同產品設計實習等課程, 進行與機械設計相關的主題式教學, 其中包含強化創造力的教學、令學員熟習六種工程表達方式, 並且俱備融入協同設計所需要的四大面向知識與技能.&lt;/p&gt;
 </summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry><entry><title>2016Fall 程式練習題</title><link href="./2016fall-cheng-shi-lian-xi-ti.html" rel="alternate"></link><published>2016-10-22T12:00:00+08:00</published><updated>2016-10-22T12:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2016-10-22:./2016fall-cheng-shi-lian-xi-ti.html</id><summary type="html">&lt;p&gt;已知截至第六週 2016fallcpa 的分組資料位於倉儲中的 &lt;a href="./../w6_group.txt"&gt;w6_group.txt&lt;/a&gt;, 而從學校修課系統下載的修課人員名條則為 &lt;a href="./../w6_list.txt"&gt;w6_list.txt&lt;/a&gt;, 請各組著手練習, 找出尚未納入分組的人員名單, 並研擬如何處置上課一個半月卻尚未進入情況的學員?&lt;/p&gt;
 
