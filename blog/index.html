@@ -281,6 +281,38 @@ init_mathjax();
         <div class="col-sm-9">
 
             <article>
+                <h2><a href="./cp-w13-she-shi-wen-du.html">CP W13 攝氏溫度</a></h2>
+                <div class="summary"><p>將<a href=" http://mde.tw/2016fallcp/course/Python3Programs.txt"> http://mde.tw/2016fallcp/course/Python3Programs.txt 整理成Brython</p>
+<!-- 導入 Brython 標準程式庫 -->
+
+<script type="text/javascript" 
+    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
+</script>
+
+<!-- 啟動 Brython -->
+
+<script>
+window.onload=function(){
+brython(1);
+}
+</script>
+
+<!-- 以下實際利用  Brython 畫圖 -->
+
+<div id="temperature"></div>
+
+<script type="text/python3">
+from browser import document as doc
+from browser import html
+container = doc['container']
+mystring =""
+cdegree = input("請輸入攝氏溫度:")
+fdgree = float(cdegree ...</script></!--></!--></!-->
+                    <a class="btn btn-default btn-xs" href="./cp-w13-she-shi-wen-du.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
                 <h2><a href="./cp-w13lian-xi.html">CP W13練習</a></h2>
                 <div class="summary"><p>將<a href=" http://mde.tw/2016fallcp/course/Python3Programs.txt"> http://mde.tw/2016fallcp/course/Python3Programs.txt 整理成Brython</p>
 <!-- 導入 Brython 標準程式庫 -->
@@ -309,6 +341,38 @@ mystring =""
 num = input("請輸入重複執行次數:")
 #for i in ...</script></!--></!--></!-->
                     <a class="btn btn-default btn-xs" href="./cp-w13lian-xi.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="./cp-w14lian-xi.html">CP W14練習</a></h2>
+                <div class="summary"><p>將<a href=" http://mde.tw/2016fallcp/course/Python3Programs.txt"> http://mde.tw/2016fallcp/course/Python3Programs.txt 整理成Brython</p>
+<!-- 導入 Brython 標準程式庫 -->
+
+<script type="text/javascript" 
+    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
+</script>
+
+<!-- 啟動 Brython -->
+
+<script>
+window.onload=function(){
+brython(1);
+}
+</script>
+
+<!-- ch01 基本的列印與輸入函式 -->
+
+<script type="text/python3">
+from browser import document
+from browser import alert
+
+'''
+    # 利用 input() 取得使用者輸入, 然後進行資料處理或運算後, 列出結果
+    #01-01.py
+    print ("Hello World!")
+    #01-02.py ...</script></!--></!--></!-->
+                    <a class="btn btn-default btn-xs" href="./cp-w14lian-xi.html">more ...</a>
                 </div>
             </article>
             <hr/>
@@ -504,8 +568,18 @@ ctx = canvas.getContext("2d ...</script></!--></!--></!-->
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
+                        <a href="./cp-w13-she-shi-wen-du.html">
+                            CP W13 攝氏溫度
+                        </a>
+                    </li>
+                    <li class="list-group-item">
                         <a href="./cp-w13lian-xi.html">
                             CP W13練習
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./cp-w14lian-xi.html">
+                            CP W14練習
                         </a>
                     </li>
                     <li class="list-group-item">
@@ -516,16 +590,6 @@ ctx = canvas.getContext("2d ...</script></!--></!--></!-->
                     <li class="list-group-item">
                         <a href="./w12-1-brython-hui-tu-fan-li.html">
                             W12-1 Brython 繪圖範例
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="./w12-2-brython-hui-tu-fan-li.html">
-                            W12-2 Brython 繪圖範例
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="./w12-brython-hui-tu-fan-li.html">
-                            W12 Brython 繪圖範例
                         </a>
                     </li>
                 </ul>
