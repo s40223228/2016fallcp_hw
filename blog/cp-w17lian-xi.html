@@ -361,8 +361,20 @@ ctx.strokeStyle = "blue"
 # 實際執行畫線
 ctx.stroke()
 ctx.closePath()
+ line(200,200,200,300)
 
 circle(200, 200, 5)
+x1=200
+y1=200
+r=100
+deg=math.pi/180
+
+for i in range(36):
+    theta = i*10
+    x2=x1+r*math.cos(theta*deg)
+    y2=y1+r*math.sin(theta*deg)
+    line(x1,y1,x2,y2)
+
 </script>
             </div>
             <!-- /.entry-content -->
