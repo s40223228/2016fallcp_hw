@@ -281,45 +281,6 @@ init_mathjax();
         <div class="col-sm-9">
 
             <article>
-                <h2><a href="../cp-w17lian-xi.html">CP W17練習</a></h2>
-                <div class="summary"><!-- 導入 Brython 標準程式庫 -->
-
-<script type="text/javascript" src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
-</script>
-
-<!-- 啟動 Brython -->
-
-<script>
-window.onload=function(){
-brython(1);
-}
-</script>
-
-<!-- 以下可以執行  Brython 程式 -->
-
-<canvas id="onebar" width="400" height="400"></canvas>
-
-<script type="text/python3">
-from browser import document
-from browser import window
-from browser import timer
-import math
-canvas = document["onebar"]
-ctx = canvas.getContext("2d")
-
-# 畫圓函式
-def circle(x,y,r):
-    ctx.beginPath()
-    ctx.arc(x, y, r, 0, math.pi*2, True)
-    ctx.fill()
-    ctx.closePath()
-
-# 以下可以利用 ctx ...</script></!--></!--></!-->
-                    <a class="btn btn-default btn-xs" href="../cp-w17lian-xi.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
                 <h2><a href="../cp-w13-she-shi-wen-du.html">CP W13 攝氏溫度</a></h2>
                 <div class="summary"><!-- 導入 Brython 標準程式庫 -->
 
@@ -584,11 +545,6 @@ ctx = canvas.getContext("2d ...</script></!--></!--></!-->
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
-                        <a href="../cp-w17lian-xi.html">
-                            CP W17練習
-                        </a>
-                    </li>
-                    <li class="list-group-item">
                         <a href="../cp-w13-she-shi-wen-du.html">
                             CP W13 攝氏溫度
                         </a>
@@ -606,6 +562,11 @@ ctx = canvas.getContext("2d ...</script></!--></!--></!-->
                     <li class="list-group-item">
                         <a href="../w10-brython-hui-tu-fan-li.html">
                             W10 Brython 繪圖範例
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="../w12-1-brython-hui-tu-fan-li.html">
+                            W12-1 Brython 繪圖範例
                         </a>
                     </li>
                 </ul>
@@ -664,7 +625,7 @@ ctx = canvas.getContext("2d ...</script></!--></!--></!-->
    <div class="container">
       <hr>
       <div class="row">
-         <div class="col-xs-10">&copy; 2017 KMOL
+         <div class="col-xs-10">&copy; 2016 KMOL
             &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
             <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
             <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
