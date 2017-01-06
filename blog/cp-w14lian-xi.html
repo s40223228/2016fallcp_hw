@@ -363,20 +363,19 @@ def get_input(ev):
 document['ch01'].bind('click',get_input)
 </script>
 
-<p><button id="ch01">取輸入後, 列印出來</button></p>
-
-<hr />
-<p><pre class="brush: python">
+<pre class="brush: python">
 <script type="text/python3">
 from browser import document
-from browser import alert</p>
-<p>def get_input(ev):
+from browser import alert
+
+def get_input(ev):
     the_input= input("請輸入")
-    alert("輸入為:"+str(the_input))</p>
-<p>document['ch01'].bind('click',get_input)
+    alert("輸入為:"+str(the_input))
+
+document['ch01'].bind('click',get_input)
 </script>
 <button id="ch01">取輸入後, 列印出來</button>
-</pre></p>
+</pre>
             </div>
             <!-- /.entry-content -->
         </article>
