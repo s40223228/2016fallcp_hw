@@ -289,6 +289,14 @@ init_mathjax();
             </article>
             <hr/>
             <article>
+                <h2><a href="../cp-w18-xin-nian-kuai-le.html">CP W18 新年快樂~</a></h2>
+                <div class="summary"><p>2017 年元旦快樂</p>
+
+                    <a class="btn btn-default btn-xs" href="../cp-w18-xin-nian-kuai-le.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
                 <h2><a href="../cp-w18lian-xi-1.html">CP W18練習-1</a></h2>
                 <div class="summary"><p>耶誕快樂</p>
 
@@ -521,43 +529,6 @@ def background(x, y, xinc, yinc, xnum, ynum, ctx):
                 </div>
             </article>
             <hr/>
-            <article>
-                <h2><a href="../w12-brython-hui-tu-fan-li.html">W12 Brython 繪圖範例</a></h2>
-                <div class="summary"><p>繪圖流程, 導入程式庫, 啟動, 然後引用各種模組開始繪圖</p>
-
-<!-- 導入 Brython 標準程式庫 -->
-
-<script type="text/javascript" 
-    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
-</script>
-
-<!-- 啟動 Brython -->
-
-<script>
-window.onload=function(){
-brython(1);
-}
-</script>
-
-<!-- 以下實際利用  Brython 畫方格線 -->
-
-<canvas id="japanflag3" width="600" height="300"></canvas>
-
-<div id="container3"></div>
-
-<script type="text/python3">
-from browser import document as doc
-from browser import html
-import math
-import re
-# 準備繪圖畫布
-canvas = doc["japanflag3"]
-container = doc["container3"]
-ctx = canvas.getContext("2d ...</script></!--></!--></!-->
-                    <a class="btn btn-default btn-xs" href="../w12-brython-hui-tu-fan-li.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
 
         <ul class="pagination">
                 <li class="prev disabled"><a href="#">&laquo;</a></li>
@@ -583,6 +554,11 @@ ctx = canvas.getContext("2d ...</script></!--></!--></!-->
                         </a>
                     </li>
                     <li class="list-group-item">
+                        <a href="../cp-w18-xin-nian-kuai-le.html">
+                            CP W18 新年快樂~
+                        </a>
+                    </li>
+                    <li class="list-group-item">
                         <a href="../cp-w18lian-xi-1.html">
                             CP W18練習-1
                         </a>
@@ -595,11 +571,6 @@ ctx = canvas.getContext("2d ...</script></!--></!--></!-->
                     <li class="list-group-item">
                         <a href="../cp-w13-she-shi-wen-du.html">
                             CP W13 攝氏溫度
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="../cp-w13lian-xi.html">
-                            CP W13練習
                         </a>
                     </li>
                 </ul>
